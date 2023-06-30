@@ -15,11 +15,11 @@ public class ArrayTest {
 			lotto = new int[5];
 		*/
 			
-			//1~10더하기
-			int sum=0;
-			for (int i=1; i<11; i++) {
-				sum+=i;
+			for(int i=9; i>0; i--) {
+				for(int j =1; j<10;j++) {
+					System.out.println(i + "x"+ j+"="+i*j);
+				}
 			}
-			System.out.println(sum);
+			
 		}
 }

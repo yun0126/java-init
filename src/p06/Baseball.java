@@ -31,6 +31,22 @@ public class Baseball {
 			compNums[i] = Integer.parseInt(numStrs[i]);
 			
 		}
+		int strike = 0;
+		int ball = 0;
+		
+		for(int i=0; i<nums.length; i++) {
+			for(int j=0; j<compNums.length; j++) {
+			if(nums[i]== compNums[j]) {
+				if(i==j) {
+					strike ++;
+				}else {
+					ball++;
+				}
+				break;
+			}
+		}
 		
 	}
+		System.out.println(strike +"strike," +ball + "ball");
+}
 }

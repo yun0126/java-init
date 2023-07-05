@@ -39,7 +39,7 @@ public class Overriding2 {
 		ms[0]= d;
 		ms[1]= m;
 		
-		
+		work(ms);
 		
 //		System.out.println(d instanceof Mother);//마더라고 불러도 되니
 //		System.out.println(m instanceof Mother);
